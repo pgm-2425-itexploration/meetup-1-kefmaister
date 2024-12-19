@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Todo App</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Vanilla Todo App</h1>
+        <!-- Navigation Links for Filtering -->
+        <nav>
+            <a href="#/">All</a>
+            <a href="#/completed">Completed</a>
+            <a href="#/pending">Pending</a>
+        </nav>
+    </header>
+
+    <!-- Search and Input Section -->
+    <section id="controls">
+        <input id="searchTodo" placeholder="Search todos..." />
+        <input id="newTodo" placeholder="Add a new todo..." />
+    </section>
+
+    <!-- Main Application -->
+    <main id="app"></main>
+
+    <!-- Dark Mode Toggle -->
+    <footer>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
